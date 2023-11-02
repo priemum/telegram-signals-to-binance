@@ -9,7 +9,7 @@ const formatterSigns = {
 }
 
 function signalParser(message, formatter) {
-    const signal = {
+    const signal = {         
         symbol: '',
         action: '',
         timeframe: '',
