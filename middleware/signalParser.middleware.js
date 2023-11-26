@@ -11,7 +11,7 @@ const formatterSigns = {
 function signalParser(message, formatter) {
     const signal = {
         symbol: '',
-        action: '',
+        action: '',  
         timeframe: '',
         leverage: '1',
         price: [],
